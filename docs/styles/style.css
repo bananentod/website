@@ -1,0 +1,51 @@
+h1 {
+    font-family: cursive;
+}
+
+body {
+  width: 1200px;
+  margin: 10px auto;
+  background-color: whitesmoke;
+  padding:50px 10px 10px 10px;
+  border: 1px solid black;
+  color:  black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    width: 1000px;
+    margin: 10px auto;
+    background-color: #302e2e;
+    padding:10px 10px 10px 10px;
+    border: 1px solid black;
+    color:  white;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+  
+
+
+.p1 {
+    color: #302e2e;
+    font-family: "Lucida Console", "Courier New", monospace;
+  } 
+  
+
+img {
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.img2 {
+    width: 250px;
+    height: 250px;
+    display: inline;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+#left{    
+    text-align: left;  
+    }  
