@@ -35,6 +35,11 @@ aside {
   background-color: white;
 }
 
+.source {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+}
+
 nav {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
