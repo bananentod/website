@@ -2,76 +2,113 @@ h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+  }
+
 body {
   width: 1200px;
   margin: -10px auto 10px;
-  background-color: whitesmoke;
+  background-color: #1c1e21;
   padding: 10px 10px 10px 10px;
-  border: 1px solid black;
-  color:  black;
+  border: 1px solid white;
+  color: white;
+  font-family: "Times New Roman", serif;
+  font-size: larger;
+}
+
+aside {
+  width: 30%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  color: black;
+  background-color: white;
+}
+
+nav {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-div {
-    width: 1000px;
-    margin: 10px auto;
-    background-color: #302e2e;
-    padding:10px 10px 10px 10px;
-    border: 1px solid black;
-    color:  white;
-    font-family: "Lucida Console", "Courier New", monospace;
-  }
-  
+footer {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 
+figure {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
+}
+
+div {
+  width: 1000px;
+  margin: 10px auto;
+  background-color: #302e2e;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid black;
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
 
 .p1 {
-    color: #302e2e;
-    font-family: "Lucida Console", "Courier New", monospace;
-  } 
-  
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
 
-img {
-  width: 400px;
-  height: 400px;
+.img1 {
   display: block;
   margin: 0 auto;
-
 }
 
 .img2 {
-    width: 250px;
-    height: 250px;
-    display: inline;
-    margin: 0 auto;
-    text-align: left;
-  }
+  display: inline;
+  margin: 0 auto;
+  text-align: left;
+}
 
-#left{    
-    text-align: left;  
-    }  
+.img3 {
+  width: 875px;
+  height: 498px;
+  display: inline;
+  margin: 0 auto;
+  text-align: left;
+}
 
 
-   /* unvisited link */
 
+.left {
+  text-align: left;
+}
+
+/* unvisited link */
 a:link {
-  color: blue;
+  color: white;
   text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-  color: black;
+  color: grey;
   text-decoration: none;
-  }
+}
 
 /* mouse over link */
-  a:hover {
-  font-size: large;}
+a:hover {
+  font-size: large;
+}
 
 /* selected link */
-  a:active {
-  color: black;
-} 
+a:active {
+  color: purple;
+}
 
 
 hr.dashed {
