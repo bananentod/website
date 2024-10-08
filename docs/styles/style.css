@@ -49,3 +49,25 @@ img {
 #left{    
     text-align: left;  
     }  
+
+
+   /* unvisited link */
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+  }
+
+/* mouse over link */
+  a:hover {
+  font-size: large;}
+
+/* selected link */
+  a:active {
+  color: black;
+} 
