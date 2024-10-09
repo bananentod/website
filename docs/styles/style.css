@@ -35,6 +35,27 @@ aside {
   background-color: white;
 }
 
+.link {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+th {
+  padding: 0 15px;
+  width: 30%;
+  text-align: left;
+}
+
+td {
+  padding: 0 15px;
+  width:30%;
+  text-align: left;
+}
+
+.centerTable { 
+  margin: 0px auto; 
+}
+
 .source {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: small;
@@ -107,12 +128,12 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  font-size: large;
+  color: white;
 }
 
 /* selected link */
 a:active {
-  color: purple;
+  color: green;
 }
 
 
