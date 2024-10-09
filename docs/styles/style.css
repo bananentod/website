@@ -123,7 +123,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: grey;
+  color: #d3d3d3;
   text-decoration: none;
 }
 
