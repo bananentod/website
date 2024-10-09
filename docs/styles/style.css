@@ -66,8 +66,9 @@ nav {
 }
 
 footer {
-  padding-top: 20px;
+  padding-top: 10px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: small;
 }
 
 figure {
@@ -115,6 +116,11 @@ div {
   text-align: left;
 }
 
+
+.right {
+  text-align: right;
+}
+
 /* unvisited link */
 a:link {
   color: white;
@@ -149,7 +155,7 @@ hr.dotted {
 
 /* Solid border */
 hr.solid {
-  border-top: 3px solid #bbb;
+  border-top: 1px solid #bbb;
 }
 
 /* Rounded border */
