@@ -24,12 +24,13 @@ body {
   font-size: larger;
 }
 
-aside {
+.mydiv {
   width: 30%;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: 15px;
   float: top;
+  font-family: "Times New Roman", serif;
   font-style: italic;
   color: black;
   background-color: white;
@@ -52,9 +53,11 @@ td {
   text-align: left;
 }
 
-.centerTable { 
-  margin: 0px auto; 
+centerTable { 
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .source {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
