@@ -40,18 +40,27 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*
+th, td {
+  border: 1px solid;
+}*/
 
 th {
-  padding: 0 15px;
+  padding-right: 10px;
   width: 30%;
   text-align: left;
 }
 
+
 td {
-  padding: 0 15px;
-  width:30%;
+  padding-top: 5px ;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  width: 30%;
   text-align: left;
+  vertical-align: top;
 }
+
 
 centerTable { 
   margin-left: auto;
