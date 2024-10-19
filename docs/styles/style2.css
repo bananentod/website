@@ -26,10 +26,22 @@ body {
 
 .mydiv {
   width: 30%;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: 15px;
-  float: top;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  float: right;
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+  color: black;
+  background-color: white;
+}
+
+.mydiv_wide {
+  width: 45%;
+  padding-left: 10px;
+  padding-right: 0px;
+  margin-left: 2%;
+  float: right;
   font-family: "Times New Roman", serif;
   font-style: italic;
   color: black;
@@ -127,6 +139,7 @@ div {
 /* unvisited link */
 a:link {
   color: #d3d3d3;
+  text-decoration: none;
 } 
 
 /* visited link */
