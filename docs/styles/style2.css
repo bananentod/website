@@ -126,9 +126,8 @@ div {
 
 /* unvisited link */
 a:link {
-  color: white;
-  text-decoration: none;
-}
+  color: #d3d3d3;
+} 
 
 /* visited link */
 a:visited {
