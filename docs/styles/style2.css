@@ -48,6 +48,18 @@ body {
   background-color: white;
 }
 
+.mydiv_center {
+  width: 90%;
+  padding-left: 10px;
+  padding-right: 0px;
+  margin-left: 4%;
+  float: center;
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+  color: black;
+  background-color: white;
+}
+
 .link {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
