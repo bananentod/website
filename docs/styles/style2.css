@@ -60,6 +60,7 @@ body {
   background-color: white;
 }
 
+
 .link {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -169,6 +170,31 @@ a:hover {
 a:active {
   color: green;
 }
+
+
+a.blk { color: black;}
+/* unvisited link */
+a.blk:link {
+  color: black;
+  text-decoration: none;
+} 
+
+/* visited link */
+a.blk:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a.blk:hover {
+  color: black;
+}
+
+/* selected link */
+a.blk:active {
+  color: black;
+}
+
 
 
 hr.dashed {
