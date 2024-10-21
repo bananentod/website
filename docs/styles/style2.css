@@ -38,9 +38,12 @@ body {
 
 .mydiv_wide {
   width: 45%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 2px;
   padding-left: 10px;
   padding-right: 0px;
-  margin-left: 2%;
   float: right;
   font-family: "Times New Roman", serif;
   font-style: italic;
@@ -50,6 +53,7 @@ body {
 
 .mydiv_center {
   width: 90%;
+  margin: 10px;
   padding-left: 10px;
   padding-right: 0px;
   margin-left: 4%;
@@ -78,7 +82,7 @@ td {
   text-align: left;
 }
 
-centerTable { 
+.centerTable { 
   margin-left: auto;
   margin-right: auto;
 }
@@ -104,6 +108,7 @@ figure {
   font-size: small;
 }
 
+/*
 div {
   width: 1000px;
   margin: 10px auto;
@@ -112,7 +117,7 @@ div {
   border: 1px solid black;
   color: white;
   font-family: "Lucida Console", "Courier New", monospace;
-}
+} */
 
 .p1 {
   color: white;
