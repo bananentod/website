@@ -13,6 +13,8 @@ h3 {
   font-size: small;
   }
 
+ h4 { font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;} 
+
 body {
   width: 800px;
   margin: -10px auto 10px;
@@ -139,10 +141,14 @@ div {
   width: 875px;
   height: 498px;
   display: inline;
-  margin: 0 auto;
-  text-align: left;
+  margin: auto;
 }
 
+.img_right {
+  display: inline;
+  margin: 0 auto;
+  text-align: right;
+}
 
 
 .left {
