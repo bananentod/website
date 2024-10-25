@@ -38,6 +38,28 @@ body {
   background-color: white;
 }
 
+.imgdiv {
+  width: 30%;
+  float: right;
+  margin-right: 0;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+.float_left {
+  width: 30%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  float: left;
+  font-family: "Times New Roman", serif;
+}
+
+.float_right {
+  float: right;
+}
+
+
 .mydiv_wide {
   width: 45%;
   margin-top: 5px;
@@ -145,9 +167,9 @@ div {
 }
 
 .img_right {
-  display: inline;
-  margin: 0 auto;
-  text-align: right;
+  margin-top: auto ;
+  margin-left: 20px;
+  float: right;
 }
 
 
